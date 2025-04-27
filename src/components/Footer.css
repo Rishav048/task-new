@@ -1,0 +1,44 @@
+.footer-link {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #888;
+}
+
+.footer-logo {
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  color: #000;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.footer-icon {
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.copyright-text {
+  font-size: 14px;
+}
+
+.footer-card{
+  min-height: 10rem;
+}
