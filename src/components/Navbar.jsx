@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 import { useLocation } from "react-router-dom"; // <-- import this
 import "./Navbar.css"; // for your custom font/colors if needed
+import Logo from "../assets/image/logo.jpeg";
 
 const NavigationBar = () => {
   const location = useLocation(); // <-- get current path
@@ -42,7 +43,7 @@ const NavigationBar = () => {
 
         {/* Center Logo */}
         <Navbar.Brand href="#" className="mx-auto nav-logo title">
-          BHAVRI B
+          <img className="logo-img" src={Logo} alt="" />
         </Navbar.Brand>
 
         {/* Right Icons */}

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, Row, Col } from "react-bootstrap";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import "./Footer.css";
+import Logo from "../assets/image/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
 
           {/* Center Logo */}
           <Col md="4" className="text-center">
-            <h4 className="footer-logo title">BHAVRI B</h4>
+            <img className="logo-img" src={Logo} alt="" />
           </Col>
           <Col md="4" className="d-flex gap-auto justify-content-around">
             <Nav.Link href="/" className="footer-link">

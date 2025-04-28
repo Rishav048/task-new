@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
-import product from "../assets/image/product.jpg";
+import card1 from "../assets/image/card1.jpeg";
+import card2 from "../assets/image/card2.jpeg";
+import card3 from "../assets/image/card3.jpeg";
+import homebg2 from "../assets/image/Home3.jpeg";
 
 const AboutHome = () => {
   return (
@@ -26,7 +29,7 @@ const AboutHome = () => {
           <div className="row g-4">
             <div className="col-md-4">
               <div className="card border-0 shadow rounded overflow-hidden text-white">
-                <img src={product} className="card-img" alt="Product 1" />
+                <img src={card1} className="card-img" alt="Product 1" />
                 <div className="card-img-overlay d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50">
                   <h4 className="card-title mb-3">Product 1</h4>
                   <p className="w-75 card-text mb-3">
@@ -42,7 +45,7 @@ const AboutHome = () => {
 
             <div className="col-md-4">
               <div className="card border-0 shadow rounded overflow-hidden text-white">
-                <img src={product} className="card-img" alt="Product 2" />
+                <img src={card2} className="card-img" alt="Product 2" />
                 <div className="card-img-overlay d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50">
                   <h4 className="card-title mb-3">Product 2</h4>
                   <p className="w-75 card-text mb-3">
@@ -58,7 +61,7 @@ const AboutHome = () => {
 
             <div className="col-md-4">
               <div className="card border-0 shadow rounded overflow-hidden text-white">
-                <img src={product} className="card-img" alt="Product 3" />
+                <img src={card3} className="card-img" alt="Product 3" />
                 <div className="card-img-overlay d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50">
                   <h4 className="card-title mb-3">Product 3</h4>
                   <p className="w-75 card-text mb-3">
@@ -80,7 +83,7 @@ const AboutHome = () => {
         <div className="container">
           <div className="position-relative">
             <img
-              src="https://images.unsplash.com/photo-1574180045827-681f8a1a9622"
+              src={homebg2}
               className="img-fluid rounded w-100"
               alt="Mission Banner"
               style={{ height: "300px", objectFit: "cover" }}

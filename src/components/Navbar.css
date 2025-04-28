@@ -38,3 +38,7 @@
 .nav-item:hover {
   color: #666; /* slightly darker on hover */
 }
+
+.logo-img{
+  width: 12rem;
+}
